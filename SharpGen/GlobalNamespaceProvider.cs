@@ -67,7 +67,11 @@ namespace SharpGen
         /// <summary>
         /// Attribute that defines the shadow type for an interface.
         /// </summary>
-        ShadowAttribute
+        ShadowAttribute,
+        /// <summary>
+        /// Helper class for marshalling interface/class types
+        /// </summary>
+        MarshallingHelpers,
     }
 
     /// <summary>
